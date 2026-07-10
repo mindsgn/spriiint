@@ -71,7 +71,6 @@ export default function WorkoutScreen() {
 
   const handleCompleteSwipe = () => {
     completeSet();
-    // Reset the slider immediately so it's ready for the next set (or reset when component re-renders)
     translateX.value = 0;
   };
 
